@@ -14,6 +14,7 @@ step by step.
 | Repository | What it is |
 |---|---|
 | [osp-fo4](https://github.com/patodois/osp-fo4) | Clean-room reimplementation of Fallout 4's engine: BA2, ESP/ESM, NIF, Havok and Papyrus readers, CPU renderer, GPU viewer, walking, and a script VM that runs the opening quests. Not playable yet; milestones in `docs/next-steps.md`. MIT OR Apache-2.0. |
+| [osp-fo4-play](https://github.com/patodois/osp-fo4-play) | The GPL-3.0-or-later side: the playable layer that may build on GPL-compatible code of clean provenance. Depends on osp-fo4, never the reverse. Nothing playable yet. |
 | [osp-f4se-measure](https://github.com/patodois/osp-f4se-measure) | F4SE plugin and measurement packets: owners of the game measure its behaviour so osp-fo4's pending rules can be confirmed. |
 
 ## Cross-game passthrough (game mash-ups and crossovers)
@@ -23,6 +24,7 @@ step by step.
 | [rewrite-bridge](https://github.com/patodois/rewrite-bridge) | The protocol: one game hosted inside another on one machine, sharing players, poses, spawns, collision and depth. Start here. |
 | [link-c](https://github.com/patodois/link-c) · [link-cs](https://github.com/patodois/link-cs) · [link-java](https://github.com/patodois/link-java) | The protocol as a single-header C99 library (SKSE, F4SE, ScriptHookV), a C# library (Unity, BepInEx, MelonLoader) and a Java 8 library. |
 | [minecraft-link](https://github.com/patodois/minecraft-link) | Minecraft client mod speaking the protocol (Fabric, NeoForge, Forge, Quilt). |
+| [pumpkin-link](https://github.com/patodois/pumpkin-link) | Plugin for the Pumpkin Minecraft server (Rust, WebAssembly) speaking the protocol as host or guest. |
 | [bridge-guest](https://github.com/patodois/bridge-guest) | Renders any provider's model into any host game with the host's camera and depth. |
 | [bridge-testbed](https://github.com/patodois/bridge-testbed) · [bridge-live](https://github.com/patodois/bridge-live) | Test scenes and a live interop matrix for the protocol. |
 
