@@ -24,7 +24,6 @@ step by step.
 | [link-c](https://github.com/patodois/link-c) · [link-cs](https://github.com/patodois/link-cs) · [link-java](https://github.com/patodois/link-java) | The protocol as a single-header C99 library (SKSE, F4SE, ScriptHookV), a C# library (Unity, BepInEx, MelonLoader) and a Java 8 library. |
 | [minecraft-link](https://github.com/patodois/minecraft-link) | Minecraft client mod speaking the protocol (Fabric, NeoForge, Forge, Quilt). |
 | [bridge-guest](https://github.com/patodois/bridge-guest) | Renders any provider's model into any host game with the host's camera and depth. |
-| [crossover](https://github.com/patodois/crossover) | A War Thunder level and tank with a Warframe character in one Bevy scene. |
 | [bridge-testbed](https://github.com/patodois/bridge-testbed) · [bridge-live](https://github.com/patodois/bridge-live) | Test scenes and a live interop matrix for the protocol. |
 
 ## Game data readers and extractors (Rust, glTF export)
