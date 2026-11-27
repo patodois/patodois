@@ -1,4 +1,4 @@
-# patodois
+<h1 align="center"><img src="title.png" alt="patodois" width="333"></h1>
 
 Open-source game tooling in Rust: readers for game data, a clean-room engine
 reimplementation, and a protocol for running one game inside another. Every
